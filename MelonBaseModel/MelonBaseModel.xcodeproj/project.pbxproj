@@ -10,6 +10,8 @@
 		4023C6D41C67780800EEB929 /* MelonBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4023C6D31C67780800EEB929 /* MelonBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4023C6DB1C67780800EEB929 /* MelonBaseModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4023C6D01C67780800EEB929 /* MelonBaseModel.framework */; };
 		4023C6E01C67780800EEB929 /* MelonBaseModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023C6DF1C67780800EEB929 /* MelonBaseModelTests.m */; };
+		403840851C986EC2007D0F40 /* MBFBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 403840831C986EC2007D0F40 /* MBFBaseManager.h */; };
+		403840861C986EC2007D0F40 /* MBFBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 403840841C986EC2007D0F40 /* MBFBaseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		4023C6DA1C67780800EEB929 /* MelonBaseModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonBaseModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4023C6DF1C67780800EEB929 /* MelonBaseModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelonBaseModelTests.m; sourceTree = "<group>"; };
 		4023C6E11C67780800EEB929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403840831C986EC2007D0F40 /* MBFBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFBaseManager.h; sourceTree = "<group>"; };
+		403840841C986EC2007D0F40 /* MBFBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFBaseManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		4023C6C61C67780800EEB929 = {
 			isa = PBXGroup;
 			children = (
+				403840821C986EA8007D0F40 /* Manager */,
 				4023C6D21C67780800EEB929 /* MelonBaseModel */,
 				4023C6DE1C67780800EEB929 /* MelonBaseModelTests */,
 				4023C6D11C67780800EEB929 /* Products */,
@@ -86,6 +91,15 @@
 			path = MelonBaseModelTests;
 			sourceTree = "<group>";
 		};
+		403840821C986EA8007D0F40 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				403840831C986EC2007D0F40 /* MBFBaseManager.h */,
+				403840841C986EC2007D0F40 /* MBFBaseManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4023C6D41C67780800EEB929 /* MelonBaseModel.h in Headers */,
+				403840851C986EC2007D0F40 /* MBFBaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403840861C986EC2007D0F40 /* MBFBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +390,7 @@
 				4023C6E61C67780800EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4023C6E71C67780800EEB929 /* Build configuration list for PBXNativeTarget "MelonBaseModelTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +399,7 @@
 				4023C6E91C67780800EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
